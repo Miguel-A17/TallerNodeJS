@@ -4,4 +4,4 @@
 
 # "experimentando" 
 
-# "Modificando el doc"
+# "Modificando el documento"

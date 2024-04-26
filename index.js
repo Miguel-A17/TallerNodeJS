@@ -16,9 +16,16 @@ const port = process.env.PORT || 3000
     para recuperar la informacion
 
     */
+   // lo de abajo se le conoce como ruta en express
+/*
 app.get('/', (req,res) => {//req = request res = response
-    res.send('Hola mundo!')
-    
+  res.send('Hola mundo!')    
+})*/
+
+
+app.get('/myname', (req,res) => {//req = request res = response la "/" indica la ruta de la pag. http
+    const name = 'Miguel Angel';
+    res.send(`Hello World! My name is ${name}.`);  
 })
 
 /*  Estamos escuchando

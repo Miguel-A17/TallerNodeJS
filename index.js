@@ -38,6 +38,6 @@ app.get('/', (req,res) => {//req = request res = response
 
  */
  app.listen(port, () => {
-    console.info(`Escuchando por el puerto:  ${port}`)
+    console.info(`Escuchando puerto:  ${port}`)
     //console.log(process.env.PORT);
 });
